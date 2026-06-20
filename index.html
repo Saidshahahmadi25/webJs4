@@ -3,138 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Enterprise software, AI automation, ERP, cloud, and digital transformation services for organizations in Afghanistan." />
+    <title>Certificates.dev | Enterprise Software & AI Solutions</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
-    <nav
-      style="
-        background-color: darkcyan;
-        padding: 12px;
-        display: flex;
-        justify-content: space-between;
-      "
-    >
-      <img src="images/logo.svg" alt="" width="200" />
-
-      <ul style="display: flex; gap: 1rem">
-        <li>
-          <a href="#">Certificates</a>
-        </li>
-
-        <li>
-          <a href="#">Cheat Sheets</a>
-        </li>
-
-        <li>
-          <a href="#">Partners</a>
-        </li>
-
-        <li>
-          <a href="#">Company Certification</a>
-        </li>
-
-        <li>
-          <a href="#">Blog</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- end of navbar -->
-
-    <section>
-      <div style="display: flex; gap: 1rem">
-        <div>
-          <h1>Certificates for the modern developer</h1>
-          <p>
-            Earn certifications that will validate your skills and knowledge,
-            demonstrate your commitment, and enhance your job prospects and
-            career advancement.
-          </p>
-          <button>Sign Up with GitHub</button>
-          <p>Or create an account with your email</p>
-          <button>Sign Up</button>
+    <header class="site-header" data-header>
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Certificates.dev home"><img src="images/logo.svg" alt="Certificates.dev logo" /></a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle><span></span><span></span><span></span></button>
+        <div class="nav-panel" data-nav-panel>
+          <a href="#home">Home</a><a href="#services">Services</a><a href="#solutions">Solutions</a><a href="#industries">Industries</a><a href="#about">About</a><a href="#contact">Contact</a>
         </div>
-        <!-- end of modern developer text Left -->
-        <div>
-          <img src="images/images.svg" width="500" alt="" />
+        <div class="nav-actions"><a class="btn btn-ghost" href="#contact">Login</a><a class="btn btn-primary" href="#contact">Get Started</a></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-glow"></div><div class="hero-grid"></div>
+        <div class="shell hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span>Trusted enterprise technology partner</p>
+            <h1>Enterprise Software, AI Solutions & Digital Transformation for Afghanistan</h1>
+            <p class="hero-text">Certificates.dev helps organizations modernize critical operations with secure ERP systems, custom platforms, AI automation, and cloud services designed for measurable business outcomes.</p>
+            <div class="hero-actions"><a class="btn btn-primary btn-large" href="#contact">Get Started</a><a class="btn btn-secondary btn-large" href="#contact">Book a Demo</a></div>
+            <div class="stats" aria-label="Company trust indicators"><article><strong>500+</strong><span>Projects</span></article><article><strong>20+</strong><span>Years Experience</span></article><article><strong>100+</strong><span>Clients</span></article></div>
+          </div>
+          <div class="hero-visual reveal" aria-label="Enterprise solution capabilities">
+            <div class="orb-ring"></div><div class="central-orb"><span data-icon="building"></span></div>
+            <article class="float-card card-ai"><span data-icon="bot"></span>AI Automation</article>
+            <article class="float-card card-erp"><span data-icon="database"></span>ERP Systems</article>
+            <article class="float-card card-crm"><span data-icon="users"></span>CRM Solutions</article>
+            <article class="float-card card-cloud"><span data-icon="cloud"></span>Cloud Services</article>
+            <article class="float-card card-data"><span data-icon="chart"></span>Data Analytics</article>
+            <article class="float-card card-code"><span data-icon="code"></span>Custom Software</article>
+          </div>
         </div>
-        <!-- end of  modern developer img right-->
-      </div>
-    </section>
-    <!-- end  modern developer-->
+      </section>
 
-    <section>
-      <div style="display: flex; gap: 1rem">
-        <div>
-          <h1>Certificates for the modern developer</h1>
-          <p>
-            Earn certifications that will validate your skills and knowledge,
-            demonstrate your commitment, and enhance your job prospects and
-            career advancement.
-          </p>
+      <section class="logos section-slim" aria-label="Trusted clients">
+        <div class="shell"><h2>Trusted by Leading Organizations</h2><div class="logo-window"><div class="logo-track">
+          <span>Afghan Telecom</span><span>Ministry Office</span><span>Kabul Bank</span><span>UN Partner</span><span>Education Hub</span><span>HealthNet</span><span>Ariana Group</span><span>Finance Trust</span>
+          <span>Afghan Telecom</span><span>Ministry Office</span><span>Kabul Bank</span><span>UN Partner</span><span>Education Hub</span><span>HealthNet</span><span>Ariana Group</span><span>Finance Trust</span>
+        </div></div></div>
+      </section>
 
-          <p>
-            Examinations are challenging, so you have a true opportunity to
-            prove your worth. Included are real-world coding challenges which
-            are a fun, interactive way! Preparation materials and training are
-            provided, allowing you to expand your knowledge and gain a deep
-            understanding of the technology. Advanced certification is also
-            provided for those that are or aspire to a senior role.
-          </p>
-        </div>
-        <!-- end of modern developer text Left -->
-        <div>
-          <img src="images/Why_join_our.PNG" width="500" alt="" />
-        </div>
-        <!-- end of  modern developer img right-->
-      </div>
+      <section class="section" id="services"><div class="shell"><div class="section-heading reveal"><p class="kicker">Services</p><h2>Six Services. One Reliable Partner.</h2></div><div class="service-grid">
+        <article class="service-card reveal"><span class="service-icon" data-icon="database"></span><h3>ERP Solutions</h3><p>Odoo Implementation</p><p>ERP Customization</p><p>Business Automation</p></article>
+        <article class="service-card reveal"><span class="service-icon" data-icon="code"></span><h3>Custom Software Development</h3><p>Web Applications</p><p>Mobile Applications</p><p>Enterprise Platforms</p></article>
+        <article class="service-card reveal"><span class="service-icon" data-icon="brain"></span><h3>AI Automation</h3><p>AI Agents</p><p>Chatbots</p><p>Workflow Automation</p></article>
+        <article class="service-card reveal"><span class="service-icon" data-icon="users"></span><h3>IT Staff Augmentation</h3><p>Dedicated Developers</p><p>Technical Experts</p><p>Remote Teams</p></article>
+        <article class="service-card reveal"><span class="service-icon" data-icon="rocket"></span><h3>Digital Transformation</h3><p>Business Process Automation</p><p>Cloud Migration</p><p>Data Strategy</p></article>
+        <article class="service-card reveal"><span class="service-icon" data-icon="cloud"></span><h3>Cloud & Managed Services</h3><p>Hosting</p><p>DevOps</p><p>Security</p></article>
+      </div></div></section>
 
-      <button>Certify Your Team</button>
-    </section>
-    <!-- end  Why join our-->
+      <section class="why section" id="solutions"><div class="shell"><div class="why-heading reveal"><div><p class="kicker">Why Choose Us</p><h2>Built for mission-critical teams.</h2></div><p>From consulting to deployment, our delivery model combines enterprise architecture, local market understanding, and operational support that keeps systems moving after launch.</p></div><div class="why-grid">
+        <article class="why-card reveal"><span data-icon="users"></span><strong>80+</strong><p>Expert Team</p></article><article class="why-card reveal"><span data-icon="check"></span><strong>98%</strong><p>Proven Results</p></article><article class="why-card reveal"><span data-icon="shield"></span><strong>24/7</strong><p>Enterprise Security</p></article><article class="why-card reveal"><span data-icon="phone"></span><strong>Kabul</strong><p>Local Support</p></article>
+      </div></div></section>
 
-    <section>
-      <header style="text-align: center">
-        <h1>Research shows clear interest in achieving certification</h1>
-        <p>
-          We received more than
-          <span style="color: darkturquoise">2,500 responses</span> from
-          developers in a pre-launch survey conducted about the Certification
-          Program.
-        </p>
-      </header>
+      <section class="section" id="industries"><div class="shell"><div class="section-heading reveal"><p class="kicker">Industries</p><h2>Enterprise technology for every sector.</h2></div><div class="industry-grid">
+        <article class="industry-card reveal"><span data-icon="landmark"></span>Government</article><article class="industry-card reveal"><span data-icon="education"></span>Education</article><article class="industry-card reveal"><span data-icon="health"></span>Healthcare</article><article class="industry-card reveal"><span data-icon="finance"></span>Finance</article><article class="industry-card reveal"><span data-icon="building"></span>NGOs</article><article class="industry-card reveal"><span data-icon="network"></span>Telecommunications</article>
+      </div></div></section>
 
-      <div style="display: flex; gap: 1rem; justify-content: center">
-        <div style="background: gray; padding: 12px; width: 300px">
-          <img src="images/icons.svg" alt="" />
-          <h2>63%</h2>
-          <p>
-            presume a certificate will enhance their job prospects and career
-            advancement
-          </p>
-        </div>
-        <!-- card1 -->
+      <section class="process section" id="about"><div class="shell"><div class="section-heading reveal"><p class="kicker">Process</p><h2>A clear path from idea to launch.</h2></div><div class="timeline">
+        <article class="timeline-card reveal"><span>01</span><h3>Discovery</h3><p>Define business goals, technical needs, users, risks, and delivery priorities.</p></article><article class="timeline-card reveal"><span>02</span><h3>Planning</h3><p>Shape the roadmap, architecture, team model, milestones, and success metrics.</p></article><article class="timeline-card reveal"><span>03</span><h3>Development</h3><p>Build secure systems with iterative reviews, QA, integration, and reporting.</p></article><article class="timeline-card reveal"><span>04</span><h3>Deployment</h3><p>Launch confidently with training, monitoring, support, and continuous improvement.</p></article>
+      </div></div></section>
 
-        <div style="background: gray; padding: 12px; width: 300px">
-          <img src="images/icons.svg" alt="" />
-          <h2>63%</h2>
-          <p>
-            presume a certificate will enhance their job prospects and career
-            advancement
-          </p>
-        </div>
-        <!-- card2 -->
+      <section class="section testimonials"><div class="shell"><div class="section-heading reveal"><p class="kicker">Testimonials</p><h2>Trusted by leaders who need dependable delivery.</h2></div><div class="testimonial-card reveal"><div class="testimonial-track" data-testimonials>
+        <article><div class="client"><span>FA</span><div><h3>Farid Ahmadi</h3><p>COO, Kabul Growth Group</p></div></div><blockquote>"The team helped us replace disconnected tools with a secure enterprise platform our operations team actually trusts."</blockquote></article>
+        <article><div class="client"><span>MS</span><div><h3>Mariam Sediqi</h3><p>Digital Programs Director, National Education Partner</p></div></div><blockquote>"Their planning, communication, and delivery discipline made a complex modernization program feel controlled from day one."</blockquote></article>
+        <article><div class="client"><span>OR</span><div><h3>Omar Rahimi</h3><p>Head of Technology, Atlas Cloud Services</p></div></div><blockquote>"We needed AI workflow automation without compromising security. They delivered fast and kept enterprise standards intact."</blockquote></article>
+      </div><div class="testimonial-dots" aria-label="Select testimonial"><button class="active" type="button" data-slide="0" aria-label="Show first testimonial"></button><button type="button" data-slide="1" aria-label="Show second testimonial"></button><button type="button" data-slide="2" aria-label="Show third testimonial"></button></div></div></div></section>
 
-        <div style="background: gray; padding: 12px; width: 300px">
-          <img src="images/icons.svg" alt="" />
-          <h2>63%</h2>
-          <p>
-            presume a certificate will enhance their job prospects and career
-            advancement
-          </p>
-        </div>
-        <!-- card3 -->
-      </div>
-    </section>
-    <!-- end of Research  -->
+      <section class="cta section" id="contact"><div class="shell"><div class="cta-panel reveal"><div><p class="kicker">Next step</p><h2>Ready to Transform Your Business?</h2></div><div class="cta-actions"><a class="btn btn-light btn-large" href="mailto:hello@example.com">Schedule Consultation</a><a class="btn btn-outline-light btn-large" href="tel:+93000000000">Contact Sales</a></div></div></div></section>
+    </main>
+
+    <footer class="footer"><div class="shell footer-grid"><div class="footer-brand"><img src="images/logo.svg" alt="Certificates.dev logo" /><p>Secure software, AI automation, ERP, and cloud services for organizations ready to modernize.</p><div class="socials"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="X">x</a><a href="#" aria-label="Facebook">f</a></div></div><div><h3>Company</h3><a href="#about">About</a><a href="#">Careers</a><a href="#">Blog</a></div><div><h3>Services</h3><a href="#services">ERP</a><a href="#services">AI</a><a href="#services">Software Development</a></div><div><h3>Resources</h3><a href="#">Documentation</a><a href="#">Case Studies</a></div><div><h3>Contact</h3><p>hello@example.com</p><p>+93 000 000 000</p><p>Kabul, Afghanistan</p></div></div></footer>
   </body>
 </html>
